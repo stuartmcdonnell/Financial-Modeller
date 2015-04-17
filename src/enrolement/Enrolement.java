@@ -96,7 +96,7 @@ public class Enrolement {
                 arrayListRead.add(section[index]);
                 line = fileReader.readLine();
 
-            }//for close
+            }//for close test
             
             String everything = arrayListRead.toString();
             //String everything = sb.toString();

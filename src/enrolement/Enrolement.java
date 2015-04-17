@@ -88,17 +88,17 @@ public class Enrolement {
             
             int sectionIndex = 0;
             
-            for(int index = 0; index < 5; index++){
+            for(int index = 0; index < 10; index++){
                 
                 sb.append(line);
+                
                 //Splits the String into compontents in the array section.
                 String section[] = sb.toString().split(",");
-                
                 
                 arrayListRead.add(section[index]);
                 line = fileReader.readLine();
 
-            }//for close test
+            }//for close
             
             String everything = arrayListRead.toString();
             //String everything = sb.toString();

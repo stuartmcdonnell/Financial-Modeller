@@ -88,7 +88,11 @@ public class Enrolement {
             
             int sectionIndex = 0;
             
-            for(int index = 0; index < 10; index++){
+            int[] multipleArray = new int[20];
+            multipleArray[0] = 5;
+            multipleArray[1] = 10;
+            
+            for(int index = 0; index < 5; index++){
                 
                 sb.append(line);
                 
